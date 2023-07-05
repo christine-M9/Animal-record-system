@@ -59,3 +59,24 @@
     width: 500px;
     border-radius: 0.5rem;
 }
+.bold{
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  .dogiiis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dogsCard{
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    padding: 16px;
+    text-align: center;
+    font-family: arial;
+    height: 700px;
+
+}
