@@ -1,13 +1,16 @@
 .navbar{
-    background-color: green;
+    background-color: rgb(10, 6, 41);
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .footer{
-    background-color: green;
+    background-color:  rgb(10, 6, 41);;
     height: 100px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   *{
     padding: 0;
@@ -29,13 +32,7 @@
     margin: 2rem 0;
 
 }
-.navbar{
-    background-color: green;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+
   ul{
     display: flex;
     list-style: none;
@@ -86,5 +83,11 @@ h3{
     
 }
 body{
-    background-image: url(./image/pexels-uhgo-3540807.jpg);
+    background-blend-mode: luminosity;
 }
+h2{
+   
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
