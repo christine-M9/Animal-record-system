@@ -9,3 +9,23 @@
     background-color: green;
     height: 100px;
   }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #dogs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    display:block;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    width:40%;
+    margin: 2rem 0;
+
+}
