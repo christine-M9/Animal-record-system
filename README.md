@@ -39,3 +39,9 @@ Ensure that you have;
  ## Live Link
 
  [Click Here for Live Link](https://christine-m9.github.io/Phase1-Project/)
+
+  ## Aurthor
+
+  Christine K Juma
+
+[Click Here for Github Link](https://github.com/christine-M9)
