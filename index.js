@@ -27,7 +27,7 @@ function displayAnimals(dogii){
     <span class="bold">Grooming:</span><a>${dogii.grooming}</a><br/><br/>
     <span class="bold">Temperament:</span><a>${dogii.temperament}</a><br/><br/>
     <span class="bold">Description:</span><a>${dogii.description}</a><br/><br/>
-   
+   <span class="bold">Like:</span><a>${dogii.like}</a><br/><br/>
     
     </div>
     `

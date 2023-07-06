@@ -8,22 +8,20 @@ This web application demonstrates how to fetch animal data from a public API, ge
   ## Requirements
 Ensure that you have;
 
-  (a).A computer 
+1. A computer 
 
-  (b).Web browser e.g Google Chrome , mozilla  
+2. Web browser e.g Google Chrome , mozilla  
 
   ## Running the Project
-(1).Clone the repository to your local machine. 
+1. Clone the repository to your local machine. 
 
-         ```git clone``` 
+   ```bash
+   git clone <repository>
+   ``` 
 
-(2).Run json-server  to watch. 
+2. Open the index.html file and run it in the web browser. 
 
-        ```json-server --watch db.json```
-
-(3).Open the index.html file and run it in the web browser. 
-
-(4).The application will fetch the animal data from the server.This will generate the data records. 
+3. The application will fetch the animal data from the server.This will generate the data records. 
 
 
 
@@ -36,4 +34,4 @@ Ensure that you have;
 
  ## Live Link
 
- [https://christine-m9.github.io/Phase1-Project/]()
+ [Click Here for Live Link](https://christine-m9.github.io/Phase1-Project/)
