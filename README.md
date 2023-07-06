@@ -3,10 +3,11 @@
 AN ANIMAL RECORD SYSTEM.
 
   ## Description
-This web application demonstrates how to fetch animal data from a server, generating animal record data, and displaying information on the web.It contains the Javascript application for displaying data.
+This web application demonstrates how to fetch animal data from a public API, generating animal record data, and displaying information on the web.It contains the Javascript application for displaying data.
 
   ## Requirements
 Ensure that you have;
+
   (a).A computer 
 
   (b).Web browser e.g Google Chrome , mozilla  
@@ -33,4 +34,6 @@ Ensure that you have;
 
   JAVASCRIPT
 
- 
+ ## Live Link
+
+ [https://christine-m9.github.io/Phase1-Project/]()
