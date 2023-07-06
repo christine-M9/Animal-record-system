@@ -16,6 +16,8 @@ Ensure that you have;
 
 3. Json-server.
 
+4. Node js
+
   ## Running the Project
 1. Clone the repository to your local machine. 
 

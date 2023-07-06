@@ -7,7 +7,7 @@ const apiKey="live_jlIZOBP0ISTIUiSLieLnkitizzhvUo8khqcb1ETiJNR9bJBehqUkfqkl589RU
 
 const url="https://api.thecatapi.com/v1/breeds?limit=100&page=0"
 
-// Displaying animals
+// Displaying animals and their details
 
 function displayAnimals(dogii){
     const doggg=document.getElementById("animals")
