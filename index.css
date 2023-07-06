@@ -60,13 +60,13 @@
     font-weight: bold;
     margin-right: 1rem;
   }
-  .dogiiis{
+  .dogiiis{ 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.dogsCard{
+.animalsCard{
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -91,3 +91,30 @@ h2{
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
+  .review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 600px;
+  }
+  .container{
+    word-wrap: break-word;
+  }
+
+
+.output p{
+  width: 500px;
+  word-wrap: break-word;
+}
+
+.submit{
+  padding: 8px;
+  background-color: rgb(24, 3, 88);
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+
