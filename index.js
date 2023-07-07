@@ -3,9 +3,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     fetchAnimals()
 })
 
-const apiKey="live_jlIZOBP0ISTIUiSLieLnkitizzhvUo8khqcb1ETiJNR9bJBehqUkfqkl589RUhlT"
-
-const url="https://api.thecatapi.com/v1/breeds?limit=100&page=0"
+     const apiKey="live_jlIZOBP0ISTIUiSLieLnkitizzhvUo8khqcb1ETiJNR9bJBehqUkfqkl589RUhlT"
+     const url="https://api.thecatapi.com/v1/breeds?limit=100&page=0"
 
 // Displaying animals and their details
 
@@ -30,22 +29,22 @@ function displayAnimals(dogii){
    
     </div>
     `
-    dogs.appendChild(container)
+              dogs.appendChild(container)
 
   }
 
 // function fetching data.
+
 function fetchAnimals(){
-    fetch(url,{
-        method: 'GET',
-        headers:{
+          fetch(url,{
+          method: 'GET',
+          headers:{
             "x-api-key": apiKey,
         }
     })
           .then(res=>res.json())
-         .then(dogData=> 
-        dogData.forEach(dogD=>{
-
+          .then(dogData=> 
+          dogData.forEach(dogD=>{
 
             displayAnimals(dogD)
             console.log(dogD)
@@ -54,25 +53,29 @@ function fetchAnimals(){
         )
 }
 
-function displayComments(com){
-    const comme=document.getElementById("comments")
-    const container=document.createElement("div")
-    container.className="container"
-    container.innerHTML=`
-    <span class="output">
-    <p>${com.message}</p>
-    
-    </span>
+// function review data(comment)
 
+function displayComments(com){
+      const comme=document.getElementById("comments")
+      const container=document.createElement("div")
+      container.className="container"
+      container.innerHTML=`
+ <span class="output">
+     <p>${com.message}</p>
+    
+ </span>
     `  
 }
+
 // Fetching review data
+
 function fetchComments(){
-    fetch(reviewurl)
-    .then(res=>res.json())
-    .then(reve => {
-        console.log(reve)
-        reve.forEach((re) => {
+       fetch(reviewurl)
+      .then(res=>res.json())
+      .then(reve => {
+       console.log(reve)
+       reve.forEach((re) => {
+
             displayComments(re);
         })
     })
@@ -82,22 +85,25 @@ function fetchComments(){
 
 const form=document.querySelector('.reviewForm')
 form.addEventListener('submit', (e)=>{
-     e.preventDefault()
 
-     const messo=document.querySelector("#message").value
+     e.preventDefault()
+ const messo=document.querySelector("#message").value
 
      inputData.message=messo
 
-     fetch(reviewurl,{
-        method: "POST",
-        headers:{
+          fetch(reviewurl,{
+          method: "POST",
+          headers:{
+
             "content-Type": "application/json",
-            accept: "application/json"
+         accept: "application/json"
         },
+
         body: JSON.stringify(inputData)
      })
-     .then(res=>res.json())
-     .then(datacomment =>console.log(datacomment))
+
+           .then(res=>res.json())
+           .then(datacomment =>console.log(datacomment))
 }
 
 )
